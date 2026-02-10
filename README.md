@@ -66,10 +66,16 @@
 **2. Add this workflow code**
 name: Repogent AI Automation
 
+
 on:
+
+
   pull_request:
+  
   issues:
+  
   issue_comment:
+  
 
 permissions:
   contents: read
@@ -251,5 +257,6 @@ GitHub user name : harry1634
 
 ---
 **⚡ Powered by Groq**
+
 
 
