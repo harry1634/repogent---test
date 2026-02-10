@@ -241,7 +241,9 @@ Apache 2.0 License
 
 ## 👤 Author
 
-vijayabhaskar78
+P.Saiteja
+GitHub user name : harry1634
 
 ---
 **⚡ Powered by Groq**
+
