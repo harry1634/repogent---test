@@ -1,1 +1,17 @@
+name: Repogent AI Automation
+
+on:
+  pull_request:
+  issues:
+  issue_comment:
+
+jobs:
+  repogent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Repogent
+        uses: vijayabhaskar78/Repogent@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          openai_api_key: ${{ secrets.OPENAI_API_KEY }}
 
