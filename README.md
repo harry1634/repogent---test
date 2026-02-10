@@ -63,7 +63,7 @@
 
 .github/workflows/repogent.yml
 
-**2. Add this workflow code**
+## 2. Add this workflow code
 name: Repogent AI Automation
 on:
   pull_request:
@@ -83,26 +83,25 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           groq-key: ${{ secrets.GROQ_API_KEY }}
-
 **3. Add your Groq API key**
 
 **Go to:**
 
-**Settings → Secrets and variables → Actions**
+## Settings → Secrets and variables → Actions
 
 
-**Add a new secret:**
+## Add a new secret:**
 
 Name: GROQ_API_KEY
 
 Value: your_groq_api_key
 
 
-**Get a key from:**
+## **Get a key from:**
 
 https://console.groq.com
 
-**4. Enable workflow permissions**
+## 4. Enable workflow permissions**
 
 **Go to:**
 
@@ -249,6 +248,7 @@ GitHub user name : harry1634
 
 ---
 **⚡ Powered by Groq**
+
 
 
 
