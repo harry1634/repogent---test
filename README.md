@@ -64,16 +64,20 @@
 .github/workflows/repogent.yml
 
 ## 2. Add this workflow code
+```yaml
 name: Repogent AI Automation
+
 on:
   pull_request:
   issues:
   issue_comment:
+
 permissions:
   contents: read
   issues: write
   pull-requests: write
   actions: read
+
 jobs:
   repogent:
     runs-on: ubuntu-latest
@@ -83,6 +87,8 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           groq-key: ${{ secrets.GROQ_API_KEY }}
+```
+
 **3. Add your Groq API key**
 
 **Go to:**
@@ -248,6 +254,7 @@ GitHub user name : harry1634
 
 ---
 **⚡ Powered by Groq**
+
 
 
 
