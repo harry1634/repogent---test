@@ -78,19 +78,31 @@ on:
   
 
 permissions:
+
   contents: read
+  
   issues: write
+  
   pull-requests: write
+  
   actions: read
 
 jobs:
+
   repogent:
+  
     runs-on: ubuntu-latest
+    
     steps:
+    
       - name: Run Repogent
+      
         uses: harry1634/Repogent@main
+        
         with:
+        
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          
           groq-key: ${{ secrets.GROQ_API_KEY }}
 
 **3. Add your Groq API key**
@@ -103,6 +115,7 @@ jobs:
 **Add a new secret:**
 
 Name: GROQ_API_KEY
+
 Value: your_groq_api_key
 
 
@@ -257,6 +270,7 @@ GitHub user name : harry1634
 
 ---
 **⚡ Powered by Groq**
+
 
 
 
